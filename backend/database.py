@@ -50,10 +50,6 @@ def connect_to_db():
         logging.error("Database connection failed: %s", e)
         raise e
 
-logging.basicConfig(filename='application.log', 
-                    level=logging.INFO, 
-                    format='%(asctime)s - %(levelname)s - %(message)s')
-
 def create_user_table():
     """
     Label: Create User Table Function
