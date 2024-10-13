@@ -40,7 +40,7 @@ def homepage():
 
     Tests:
     - Test 1: User Logged In
-      - Input: Call `index()` with a user logged in (user_id present in the session).
+      - Input: Call `homepage()` with a user logged in (user_id present in the session).
       - Expected Outcome: The function retrieves and displays the user's streak data.
     
     - Test 2: User Not Logged In
