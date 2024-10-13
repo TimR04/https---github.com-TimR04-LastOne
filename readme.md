@@ -1,6 +1,6 @@
 ## Who we are
 Tim Rösch, 
-Thang Pungh, 
+Thang Phung, 
 Paul Willy
 
 
