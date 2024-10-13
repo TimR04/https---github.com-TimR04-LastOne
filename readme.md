@@ -73,7 +73,12 @@ If you want to generate and display the documentation locally, follow these step
 
 1. install mkdocs and the necessary plugins:
    ```bash
-   pip install mkdocs mkdocs-material mkdocstrings[python]
+   
+   1. pip install mkdocs mkdocs-material mkdocstrings[python]
+
+   2. pip install mkdocstrings mkdocstrings-python
+
+   3. mkdocs serve
 
 
 
