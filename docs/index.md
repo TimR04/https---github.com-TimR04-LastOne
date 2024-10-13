@@ -1,14 +1,14 @@
 ## Who we are
 Tim Rösch, 
-Thang Phung, 
+Thang, 
 Paul Willy
 
 
 ### How to start the application.
 
-1. Requirements installieren pip install -r req.txt
+1. Install requirements pip install -r req.txt
 
-2. Initialize Database with =>  python database.py
+2. Initialize Database with =>  python backend/database.py
 
 3. Run the flaks application with => python api.py 
 
@@ -32,7 +32,7 @@ Our idea was to be creative in this project, therefor we created several differe
 
 ### Backend:
 
-We used the python-based web frameork Flask, to manage our API endpoints, process user input and serve responses.
+We used the python-based web framework Flask, to manage our API endpoints, process user input and serve responses.
 Additionally we intergated the Google Books API in our Application as a external data source for books.
 
 #### We had to implement two different storages, 
@@ -63,9 +63,6 @@ In our Book Management App, communication between the frontend and backend occur
 - The documentaion and general tests for html are above the code in every html template. => folder templates
 - The documentation and general tests for css are intergated in the css code => folder static
 
-## additional readme informations
-- autodoc from code docstrings -> mkdocs
-
 ## Complete documentation
 
 For a more detailed documentation and API reference, you can use `mkdocs` to generate and display the complete documentation. The documentation is generated directly from the docstrings in the code.
@@ -76,6 +73,11 @@ If you want to generate and display the documentation locally, follow these step
 
 1. install mkdocs and the necessary plugins:
    ```bash
-   pip install mkdocs mkdocs-material mkdocstrings[python]
+   
+   1. pip install mkdocs mkdocs-material mkdocstrings[python]
+
+   2. pip install mkdocstrings mkdocstrings-python
+
+   3. mkdocs serve
 
 
