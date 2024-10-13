@@ -6,11 +6,11 @@ Paul Willy
 
 ### How to start the application.
 
-1. Requirements installieren pip install -r requirements.txt
+1. Requirements installieren pip install -r req.txt
 
-2. Initialize Database with =>  python initialize_db.py
+2. Initialize Database with =>  python database.py
 
-3. Run the flaks application with => python app.py 
+3. Run the flaks application with => python api.py 
 
 4. Open this link http://127.0.0.1:5000 in your browser
 
